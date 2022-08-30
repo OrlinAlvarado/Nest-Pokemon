@@ -9,7 +9,7 @@
 ```
 yarn install
 ```
-3. Tene Nest CLI instalado
+3. TeneR Nest CLI instalado
 ```
 npm i -g @nestjs/cli
 ```
@@ -17,8 +17,16 @@ npm i -g @nestjs/cli
 ```
 docker-compose up -d
 ```
+5. Clonar el archivo ```.env.template``` y renombrar la copia a ```.env```
+
+6. Llnear las variables de entrono definidas en el ```.env```
+
+7. Ejecutar la aplicaciion en dev:
 ```
-58. Reconstruir la base de datos con la semilla
+yarn start:dev
+```
+
+8. Reconstruir la base de datos con la semilla
 ```
 http://localhost:3000/api/v2/seed
 ```
